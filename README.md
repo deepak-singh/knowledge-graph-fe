@@ -1,6 +1,12 @@
 # knowledge_graph_frontend
 
-> A Vue.js project
+> Knowledge graph
+
+This consist of a single page, which gives you to select your subject and standard. 
+
+It will either load the existing tree or give you a flat list of content to create a tree.
+
+If the tree exist then it will be in edit mode where in you can move the nodes around and every drag-drop will update the tree.
 
 ## Build Setup
 
@@ -11,20 +17,5 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
